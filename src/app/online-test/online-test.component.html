@@ -1,0 +1,59 @@
+<div class="row">
+  <h6>Welcome : {{ email }}</h6>
+  <br />
+  <h6>Exam : {{ selectedLang }}</h6>
+  <br />
+  <h6 *ngIf="submitted">Final Score : {{ fscore }}</h6>
+</div>
+
+<div class="row" *ngIf="!submitted">
+  <div class="col-3"></div>
+  <div class="col-8" style="align-items: center">
+    <div class="card" *ngFor="let QAItem of QSet">
+      <div class="card-body">
+        <h5 class="card-title">{{ QAItem.Question }}</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" *ngFor="let optionItem of QAItem.Options">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="{{ QAItem.Question }}"
+                id="flexRadioDefault1"
+                (change)="onChange(QAItem, optionItem.Option)"
+              />
+              <label class="form-check-label" for="flexRadioDefault1">
+                {{ optionItem.Option }}
+              </label>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-1"></div>
+</div>
+
+<div class="row" *ngIf="submitted">
+  <div class="card" style="width: 28rem">
+    <div class="card-body">
+      <h5 class="card-title" style="color: green" *ngIf="fscore >= 5">
+        Result : Pass
+      </h5>
+      <h5 class="card-title" style="color: red" *ngIf="fscore < 5">
+        Result : Failed
+      </h5>
+      <p class="card-text" style="color: green" *ngIf="fscore >= 5">
+        Congratulations..!! You will get certficate soon.
+      </p>
+      <a class="btn btn-primary" routerLink="" *ngIf="fscore < 5">Try Again</a>
+    </div>
+  </div>
+</div>
+
+<div class="row" style="margin-top: 10px" *ngIf="!submitted">
+  <div class="col-10"></div>
+  <div class="col-2">
+    <button class="btn btn-primary" (click)="submitSet()">Submit</button>
+  </div>
+</div>

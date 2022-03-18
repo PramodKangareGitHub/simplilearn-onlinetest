@@ -1,0 +1,308 @@
+[
+  {
+    "LanguageName": "Angular",
+    "QAData": [
+      {
+        "Question": "Which of the following is correct about TypeScript?",
+        "Options": [
+          {
+            "Option": "Angular is based on TypeScript.",
+            "IsCorrect": false,
+            "IsSelected": false
+          },
+          {
+            "Option": "This is a superset of JavaScript.",
+            "IsCorrect": false,
+            "IsSelected": false
+          },
+          {
+            "Option": "TypeScript is maintained by Microsoft.",
+            "IsCorrect": false,
+            "IsSelected": false
+          },
+          {
+            "Option": "All of the above.",
+            "IsCorrect": true,
+            "IsSelected": false
+          }
+        ]
+      },
+      {
+        "Question": "What is .subscribe?",
+        "Options": [
+          {
+            "Option": "Streams data in asynchronously",
+            "IsCorrect": false,
+            "IsSelected": false
+          },
+          {
+            "Option": "Streams data in synchronously",
+            "IsCorrect": false,
+            "IsSelected": false
+          },
+          { "Option": "Both", "IsCorrect": true, "IsSelected": false },
+          { "Option": "None of above", "IsCorrect": false, "IsSelected": false }
+        ]
+      },
+      {
+        "Question": "What does AOT stand for?",
+        "Options": [
+          {
+            "Option": "Ahead-Of-Time Compilation",
+            "IsCorrect": true,
+            "IsSelected": false
+          },
+          {
+            "Option": "Angular Object Templates",
+            "IsCorrect": false,
+            "IsSelected": false
+          },
+          { "Option": "Both", "IsCorrect": false, "IsSelected": false },
+          { "Option": "None of above", "IsCorrect": false, "IsSelected": false }
+        ]
+      },
+      {
+        "Question": "Which of the following is not a hook application life cycle?",
+        "Options": [
+          { "Option": "ngOnChanges", "IsCorrect": false, "IsSelected": false },
+          { "Option": "ngViewStart", "IsCorrect": true, "IsSelected": false },
+          { "Option": "ngOnInit", "IsCorrect": false, "IsSelected": false },
+          {
+            "Option": "None of the above",
+            "IsCorrect": false,
+            "IsSelected": false
+          }
+        ]
+      },
+      {
+        "Question": "Router is part of which of the following module?",
+        "Options": [
+          {
+            "Option": "@angular/core",
+            "IsCorrect": false,
+            "IsSelected": false
+          },
+          {
+            "Option": "@angular/router",
+            "IsCorrect": true,
+            "IsSelected": false
+          },
+          { "Option": "Both", "IsCorrect": false, "IsSelected": false },
+          { "Option": "None of above", "IsCorrect": false, "IsSelected": false }
+        ]
+      },
+      {
+        "Question": "RxJS can be used for?",
+        "Options": [
+          { "Option": "Browser", "IsCorrect": false, "IsSelected": false },
+          { "Option": "Server Side", "IsCorrect": false, "IsSelected": false },
+          { "Option": "Both", "IsCorrect": true, "IsSelected": false },
+          { "Option": "None of above", "IsCorrect": false, "IsSelected": false }
+        ]
+      },
+      {
+        "Question": "Which angular decorator allows us to define the pipe name that is globally available for use in any template in the across application?",
+        "Options": [
+          { "Option": "pipeName", "IsCorrect": false, "IsSelected": false },
+          { "Option": "pipeDeco", "IsCorrect": false, "IsSelected": false },
+          { "Option": "Pipe", "IsCorrect": true, "IsSelected": false },
+          {
+            "Option": "None of the above",
+            "IsCorrect": false,
+            "IsSelected": false
+          }
+        ]
+      },
+      {
+        "Question": "What is the decorator used for configuring your module class?",
+        "Options": [
+          { "Option": "@NgModule", "IsCorrect": true, "IsSelected": false },
+          { "Option": "@NgApp", "IsCorrect": false, "IsSelected": false },
+          { "Option": "Both", "IsCorrect": false, "IsSelected": false },
+          { "Option": "None of above", "IsCorrect": false, "IsSelected": false }
+        ]
+      },
+      {
+        "Question": "What is used .angular-cli.json",
+        "Options": [
+          {
+            "Option": "Used to link external files",
+            "IsCorrect": false,
+            "IsSelected": false
+          },
+          {
+            "Option": "Used to configure your angular 2 project",
+            "IsCorrect": true,
+            "IsSelected": false
+          },
+          {
+            "Option": "Used to install required project packages",
+            "IsCorrect": false,
+            "IsSelected": false
+          },
+          {
+            "Option": "None of the above",
+            "IsCorrect": false,
+            "IsSelected": false
+          }
+        ]
+      },
+      {
+        "Question": "Which file is responsible for startup of angular 2 project ?",
+        "Options": [
+          { "Option": "main.ts", "IsCorrect": true, "IsSelected": false },
+          { "Option": "index.js", "IsCorrect": false, "IsSelected": false },
+          { "Option": "app.ts", "IsCorrect": false, "IsSelected": false },
+          {
+            "Option": "angular.cli.json",
+            "IsCorrect": false,
+            "IsSelected": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "LanguageName": "NodeJS",
+    "QAData": [
+      {
+        "Question": "Node.js is ___________ Language.",
+        "Options": [
+          { "Option": "Server Side", "IsCorrect": true, "IsSelected": false },
+          { "Option": "Client Side", "IsCorrect": false, "IsSelected": false },
+          { "Option": "Both", "IsCorrect": false, "IsSelected": false },
+          {
+            "Option": "None of the above",
+            "IsCorrect": false,
+            "IsSelected": false
+          }
+        ]
+      },
+      {
+        "Question": "Which of the followings are valid languages for Node.js?",
+        "Options": [
+          { "Option": "C#", "IsCorrect": false, "IsSelected": false },
+          { "Option": "C++", "IsCorrect": false, "IsSelected": false },
+          { "Option": "Javascript", "IsCorrect": true, "IsSelected": false },
+          { "Option": "Java", "IsCorrect": false, "IsSelected": false }
+        ]
+      },
+      {
+        "Question": "Which extension is used to save NodeJs files?",
+        "Options": [
+          { "Option": ".node", "IsCorrect": false, "IsSelected": false },
+          { "Option": ".js", "IsCorrect": true, "IsSelected": false },
+          { "Option": ".txt", "IsCorrect": false, "IsSelected": false },
+          { "Option": ".java", "IsCorrect": false, "IsSelected": false }
+        ]
+      },
+      {
+        "Question": "In Node process is ______",
+        "Options": [
+          { "Option": "Global Object", "IsCorrect": true, "IsSelected": false },
+          { "Option": "Local Object", "IsCorrect": false, "IsSelected": false },
+          { "Option": "Both", "IsCorrect": false, "IsSelected": false },
+          {
+            "Option": "None of the Above",
+            "IsCorrect": false,
+            "IsSelected": false
+          }
+        ]
+      },
+      {
+        "Question": "Which function is used to include modules in Node Js.",
+        "Options": [
+          { "Option": "include();", "IsCorrect": false, "IsSelected": false },
+          { "Option": "attach();", "IsCorrect": false, "IsSelected": false },
+          { "Option": "require();", "IsCorrect": true, "IsSelected": false },
+          {
+            "Option": "All of the above",
+            "IsCorrect": false,
+            "IsSelected": false
+          }
+        ]
+      },
+      {
+        "Question": "Which of following is not builtin node module.",
+        "Options": [
+          { "Option": "zlib", "IsCorrect": false, "IsSelected": false },
+          { "Option": "https", "IsCorrect": false, "IsSelected": false },
+          { "Option": "dgram", "IsCorrect": false, "IsSelected": false },
+          { "Option": "fsread", "IsCorrect": true, "IsSelected": false }
+        ]
+      },
+      {
+        "Question": "How Node.js modules are availble externally",
+        "Options": [
+          {
+            "Option": "module.exports",
+            "IsCorrect": true,
+            "IsSelected": false
+          },
+          {
+            "Option": "module.expose",
+            "IsCorrect": false,
+            "IsSelected": false
+          },
+          {
+            "Option": "module.spread",
+            "IsCorrect": false,
+            "IsSelected": false
+          },
+          {
+            "Option": "None of the Above",
+            "IsCorrect": false,
+            "IsSelected": false
+          }
+        ]
+      },
+      {
+        "Question": "What does the fs module stand for?",
+        "Options": [
+          { "Option": "File Service", "IsCorrect": false, "IsSelected": false },
+          { "Option": "File System", "IsCorrect": true, "IsSelected": false },
+          { "Option": "File Store", "IsCorrect": false, "IsSelected": false },
+          {
+            "Option": "None of the above",
+            "IsCorrect": false,
+            "IsSelected": false
+          }
+        ]
+      },
+      {
+        "Question": "What is the default scope in Node.js application.",
+        "Options": [
+          { "Option": "Local", "IsCorrect": true, "IsSelected": false },
+          { "Option": "Public", "IsCorrect": false, "IsSelected": false },
+          { "Option": "Private", "IsCorrect": false, "IsSelected": false },
+          { "Option": "Global", "IsCorrect": false, "IsSelected": false }
+        ]
+      },
+      {
+        "Question": "Which of the following is true about RESTful web services?",
+        "Options": [
+          {
+            "Option": "Webservices based on REST Architecture are known as RESTful web services",
+            "IsCorrect": false,
+            "IsSelected": false
+          },
+          {
+            "Option": "Webservices uses HTTP methods to implement the concept of REST architecture",
+            "IsCorrect": false,
+            "IsSelected": false
+          },
+          {
+            "Option": "Both of the above",
+            "IsCorrect": true,
+            "IsSelected": false
+          },
+          {
+            "Option": "None of the above",
+            "IsCorrect": false,
+            "IsSelected": false
+          }
+        ]
+      }
+    ]
+  }
+]

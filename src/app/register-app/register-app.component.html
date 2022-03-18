@@ -1,0 +1,46 @@
+<form [formGroup]="regForm" (ngSubmit)="startExam()">
+  <div class="row">
+    <div class="col-2"></div>
+    <div class="col-8">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label"
+          >Email address</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="name@example.com"
+          required
+          formControlName="email"
+          id="emailTxt"
+          name="emailTxt"
+          [ngClass]="{
+            'is-invalid': submitted && f.email.errors
+          }"
+        />
+        <div class="invalid-feedback">Please input correct email</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleDataList" class="form-label">Select Language</label>
+        <select
+          class="form-select"
+          aria-label="Default select example"
+          (change)="onChange($event)"
+        >
+          <option *ngFor="let opt of languages" [value]="opt.language">
+            {{ opt.language }}
+          </option>
+        </select>
+      </div>
+    </div>
+    <div class="col-2"></div>
+  </div>
+
+  <div class="row" style="margin-top: 100px">
+    <div class="col-6"></div>
+    <div class="col-6" style="text-align: center">
+      <button class="btn btn-primary" type="submit">Start Exam</button>
+    </div>
+  </div>
+</form>
